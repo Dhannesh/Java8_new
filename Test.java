@@ -1,6 +1,4 @@
-import B;
 
-package Java8_new;
 interface A {
     default void hello() {
         System.out.println("Hello from A");
