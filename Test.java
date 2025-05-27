@@ -18,4 +18,10 @@ public class Test implements A, B {
         t.hello();
     }
 
+    public void hello() {
+        System.out.println("I am from main");
+        A.super.hello();
+        B.super.hello();
+    }
+
 }
